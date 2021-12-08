@@ -3,12 +3,12 @@
   "displayName": "CognitiveXR",
   "version": "0.0.1-preview",
   "unity": "2019.3",
-  "description": "Cognitive XR library",
+  "description": "Cognitive XR client",
   "keywords": [
     "cogstream",
     "cpop"
   ],
-  "license": "MIT"
+  "license": "MIT",
   "homepage": "https://cognitivexr.at",
   "repository": {
     "type": "git",
