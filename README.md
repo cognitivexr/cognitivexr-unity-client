@@ -44,7 +44,7 @@ private void Update()
     }
 }
 ```
-Sample: 
+Sample: https://github.com/cognitivexr/unity-demo-app CPOPExample.unity
 
 ## CogStream Client
 
@@ -107,6 +107,8 @@ uint? frameId = jpgSendChannel?.Send(frame);
 ### Receive Channel
 Waits for new messages from the engine and implements the parsing of them.
 For example `DebugReceiveChannel` 
+
+#### How to use the reveive channel:
 ```
 // get receive channel from engine
 var receiveChannel = engineClient.GetReceiveChannel<FaceReceiveChannel>();
@@ -114,4 +116,4 @@ var receiveChannel = engineClient.GetReceiveChannel<FaceReceiveChannel>();
 // gets engine results 
 List<FaceEngineResult> faceEngineResults = await receiveChannel.Next<FaceEngineResult>();
 ```
-Example: CogStreamExample.scene
+Example: https://github.com/cognitivexr/unity-demo-app CogStreamExample.unity
